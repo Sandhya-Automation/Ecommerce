@@ -81,6 +81,7 @@ public abstract class BaseTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         System.out.println("in teardown method");
+        System.out.println("close driver");
         if(driver!=null) {
             driver.close();
         }
