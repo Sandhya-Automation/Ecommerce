@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bank">
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+    <test name="Regression-tests">
+        <classes>
+            <class name="tests.sampleflowtests"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
